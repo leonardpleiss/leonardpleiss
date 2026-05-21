@@ -29,7 +29,7 @@ export const projects: Project[] = [
     authors: "Leonard S. Pleiss, Carolin Schmidt, Maximilian Schiffer",
     description:
       "Many value-based deep reinforcement learning algorithms rely on target networks - lagged copies of the online network - to stabilize training. While effective, this mechanism introduces a fundamental stability-recency tradeoff: slower target updates improve stability but reduce the recency of learning signals, hindering convergence speed. We propose Target-Aligned Reinforcement Learning (TARL), a simple drop-in refinement for existing algorithms that emphasizes transitions for which the target and online network estimates are highly aligned. By focusing updates on well-aligned targets, TARL mitigates the adverse effects of stale target estimates while retaining the stabilizing benefits of target networks. We empirically demonstrate consistent improvements within discrete and continuous control algorithms across various benchmark environments without any hyperparameter tuning, including a 38.18% peak score gain on Atari-10, while incurring less than a 4% increase in wall-clock time.",
-    tags: ["Reinforcement Learning"],
+    tags: ["Reinforcement Learning", "Target Network"],
     venue: "",
     paper: "https://arxiv.org/abs/2603.29501",
     github: "https://github.com/leonardpleiss/TARL",
