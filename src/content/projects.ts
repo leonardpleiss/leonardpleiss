@@ -32,7 +32,7 @@ export const projects: Project[] = [
     tags: ["Reinforcement Learning"],
     venue: "",
     paper: "https://arxiv.org/abs/2603.29501",
-    github: "",
+    github: "https://github.com/leonardpleiss/TARL",
     image: "",
     year: "2026",
   },
