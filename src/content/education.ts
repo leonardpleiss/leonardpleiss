@@ -7,11 +7,25 @@ export interface Education {
 
 export const education: Education[] = [
   {
-    degree: "Ph.D. in Machine Learning",
-    institution: "Technical University Munich",
-    period: "2024 — present",
+    degree: "Visiting Researcher",
+    institution: "MIT - Massachusetts Institute of Technology",
+    period: "2026 — 2027",
     description:
-      'Focused on reinforcement learning methods and generalization within large language models. Advisor: Prof. Schiffer.',
+      'Focused on reinforcement learning methods. Supervisor: Gioele Zardini.',
+  },
+  {
+    degree: "Visiting Researcher",
+    institution: "University of Cambridge",
+    period: "2026",
+    description:
+      'Focused on reinforcement learning and co-design. Supervisor: Rika Antonova.',
+  },
+  {
+    degree: "Ph.D. in Machine Learning",
+    institution: "TUM - Technical University Munich",
+    period: "2024 — 2027",
+    description:
+      'Focused on reinforcement learning methods and generalization within large language models. Advisor: Maximilian Schiffer.',
   },
   {
     degree: "M.Sc. in Human Factors Engineering",
